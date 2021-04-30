@@ -2,11 +2,14 @@ from collections import defaultdict
 
 res = defaultdict(list)
 
-with open('data1.txt') as infile:
+with open('user.txt') as infile:
     for line in infile:
-        val = line.strip().split()
-        res[val[0]].append(line)
+        val = line.strip().split(":")
+        name=val[0]
+        res[val[1]].append(line)
+        
 
 for k, v in res.items():
     if len(v) > 1:
-        print(v)
+        print(val[1],v)
+
