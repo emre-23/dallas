@@ -5,7 +5,7 @@ res = defaultdict(list)
 with open('user.txt') as infile:
     for line in infile:
         val = line.strip().split(":")
-        name=val[0]
+        #name=val[0]
         res[val[1]].append(line)
         
 
