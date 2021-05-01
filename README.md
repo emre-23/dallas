@@ -42,7 +42,7 @@ At the main path where include Dockerfile, hello.py and prerequisites.txt file, 
 
 you can #docker pull 23emre/flask-docker and run my container serves on 5000 port
 
-/* https://hub.docker.com/r/23emre/flask-docker
+-> // https://hub.docker.com/r/23emre/flask-docker
 
 
 ###My_sql_set-up####
