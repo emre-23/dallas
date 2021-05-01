@@ -17,6 +17,10 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
   - virtualenv
   - Docker, docker-ce
 
+#export FLASK_APP=hello.py
+#flask run on
+
+![image](https://user-images.githubusercontent.com/53182424/116795030-95568580-aada-11eb-9533-9e9a6318c413.png)
 
 Activate virtual environment after clonning my repo
 // I will continue next steps within activated venv directory.
@@ -78,11 +82,6 @@ Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.co
 
 running only 5000 port of your localhost or External IP address of your machine it turns 200 or empty page with /status prefix with 204 code
 
-![image](https://user-images.githubusercontent.com/53182424/116795030-95568580-aada-11eb-9533-9e9a6318c413.png)
-You can arrive http://35.184.101.253:5000 or http://35.184.101.253:5000/status or just try;
-#export FLASK_APP=hello.py
-#flask run on your local.
 
-
-
+You can arrive http://35.184.101.253:5000
 
