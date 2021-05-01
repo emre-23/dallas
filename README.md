@@ -34,9 +34,9 @@ git clone https://github.com/emre-23/dallas.git
 
 At the main path where include Dockerfile, hello.py and prerequisites.txt file, run these commands to build your docker image:
 #docker build -t flask-docker .
-# docker tag flask-docker:latest 23emre/flask-docker
-#docker push 23emre/flask-docker //it will push with the tag lates
-you can # docker pull 23emre/flask-docker and run my container serves on 5000 port
+#docker tag flask-docker 23emre/flask-docker
+#docker push 23emre/flask-docker //it will push with the tag latest
+you can #docker pull 23emre/flask-docker and run my container serves on 5000 port
 /* https://hub.docker.com/r/23emre/flask-docker
 
 
