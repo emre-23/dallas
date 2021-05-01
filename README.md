@@ -66,5 +66,22 @@ ssh ansible-server.us-east1-b.phrasal-descent-309313
 */
 Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.com/53182424/116794595-d3ea4100-aad6-11eb-8c76-c4fed79bbd8e.png)
 
+#cd k8s_files
+#kubectl create -f deployment.yml
+#kubectl create -f service.yml
+#kubectl get deployments, svc
+
+![image](https://user-images.githubusercontent.com/53182424/116794931-ae126b80-aad9-11eb-81b0-65ba9be2f1c0.png)
+
+![image](https://user-images.githubusercontent.com/53182424/116794951-d9955600-aad9-11eb-9db7-c6ceef9b3102.png)
+
+running only 5000 port of your localhost or External IP address of your machine it turns 200 or empty page with /status prefix with 204 code
+
+![image](https://user-images.githubusercontent.com/53182424/116795030-95568580-aada-11eb-9533-9e9a6318c413.png)
+You can arrive http://35.184.101.253:5000 or http://35.184.101.253:5000/status or just try;
+#export FLASK_APP=hello.py
+#flask run on your local.
+
+
 
 
