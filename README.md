@@ -31,6 +31,10 @@ docker-compose -f stack.yml up -d
 
 my_sql![image](https://user-images.githubusercontent.com/53182424/116794415-6be72b00-aad5-11eb-85ed-45d9caa03e91.png)
 
+Setting up two-node cluster on GKE
+
+Ekran Resmi 2021-05-01 23.36.01![image](https://user-images.githubusercontent.com/53182424/116794508-1f501f80-aad6-11eb-91aa-9b641b15e075.png)
+
 
 
 
