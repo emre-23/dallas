@@ -88,3 +88,11 @@ running only 5000 port of your localhost or External IP address of your machine 
 
 You can arrive http://35.184.101.253:5000 and http://35.184.101.253:5000/status
 
+1_a linpy/main.py
+1_b hello.py & Dockerfile
+1_c k8s_files/deployment&service.yml
+1_d kubectl create -f deployment&service.yml
+
+2_http://35.184.101.253 running on port 5000
+
+3_ 35.188.98.96 running on port 8080
