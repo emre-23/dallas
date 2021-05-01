@@ -33,19 +33,28 @@ Activate virtual environment after clonning my repo
 git clone https://github.com/emre-23/dallas.git
 
 At the main path where include Dockerfile, hello.py and prerequisites.txt file, run these commands to build your docker image:
+
 #docker build -t flask-docker .
+
 #docker tag flask-docker 23emre/flask-docker
-#docker push 23emre/flask-docker //it will push with the tag latest
+
+#docker push 23emre/flask-docker //it will push with the tag :latest
+
 you can #docker pull 23emre/flask-docker and run my container serves on 5000 port
+
 /* https://hub.docker.com/r/23emre/flask-docker
 
 
 ###My_sql_set-up####
+
 #cd my_sql
+
 #docker-compose -f stack.yml up -d
 
 Arrive at: 35.188.98.96:8080
+
 user: root
+
 passwd: required_password
 
 my_sql![image](https://user-images.githubusercontent.com/53182424/116794415-6be72b00-aad5-11eb-85ed-45d9caa03e91.png)
@@ -56,19 +65,24 @@ Setting up two-node cluster on GKE
 
 As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
 
-Activate Container Registry for your selected project 
+Activate Container Registry for your selected project
+
 #gcloud services enable containerregistry.googleapis.com 
 or via console:
+
 https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overview
 
 #docker pull 23emre/flask-docker
+
 #docker tag 23emre/flask-docker gcr.io/phrasal-descent-309313/23emre/flask-docker
+
 #docker push gcr.io/phrasal-descent-309313/23emre/flask-docker
 
 ![image](https://user-images.githubusercontent.com/53182424/116795932-27fa2300-aae1-11eb-9faf-0a122917952e.png)
 
 
 #gcloud cloud-shell ssh --authorize-session
+
 To this i've mentioned here some helful gcloud commands:
 /*
 gcloud auth login
@@ -90,11 +104,15 @@ gcloud compute config-ssh
 ssh ansible-server.us-east1-b.phrasal-descent-309313
 
 */
+
 Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.com/53182424/116794595-d3ea4100-aad6-11eb-8c76-c4fed79bbd8e.png)
 
 #cd k8s_files
+
 #kubectl create -f deployment.yml
+
 #kubectl create -f service.yml
+
 #kubectl get deployments, svc
 
 ![image](https://user-images.githubusercontent.com/53182424/116794931-ae126b80-aad9-11eb-81b0-65ba9be2f1c0.png)
