@@ -17,6 +17,11 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
   - virtualenv
   - Docker, docker-ce
 
+Create a folder as in my case mkdir project_2501
+cd myproject_2501
+python3 -m venv venv
+. venv/bin/activate
+
 #export FLASK_APP=hello.py
 #flask run
 
@@ -27,10 +32,7 @@ Activate virtual environment after clonning my repo
 // I had created dallas repository first and clone it in activated environment 
 git clone https://github.com/emre-23/dallas.git
 
-Create a folder as in my case mkdir project_2501
-cd myproject_2501
-python3 -m venv venv
-. venv/bin/activate
+
 
 ###My_sql_set-up####
 #cd my_sql
