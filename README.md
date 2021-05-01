@@ -1,6 +1,7 @@
 # dallas
 
-You can clone my repo to your local and just save the file main.py and user.txt on linpy path.
+You can clone my repo to your local and just save the file main.py and user.txt on linpy path
+
 ./main.py will print the duplicated ID with full username lines.
 
 ![image](https://user-images.githubusercontent.com/53182424/116794478-e4e68280-aad5-11eb-91e9-4672927d9db4.png)
