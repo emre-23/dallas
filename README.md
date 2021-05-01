@@ -36,7 +36,8 @@ python3 -m venv venv
 #cd my_sql
 #docker-compose -f stack.yml up -d
 
-user:root
+Arrive at: 35.188.98.96:8080
+user: root
 passwd: required_password
 
 my_sql![image](https://user-images.githubusercontent.com/53182424/116794415-6be72b00-aad5-11eb-85ed-45d9caa03e91.png)
@@ -83,5 +84,5 @@ Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.co
 running only 5000 port of your localhost or External IP address of your machine it turns 200 or empty page with /status prefix with 204 code
 
 
-You can arrive http://35.184.101.253:5000
+You can arrive http://35.184.101.253:5000 and http://35.184.101.253:5000/status
 
