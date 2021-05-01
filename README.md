@@ -50,6 +50,9 @@ Setting up two-node cluster on GKE
 
 As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
 
+Activate Container Registry for your selected project:
+https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overview
+
 #gcloud cloud-shell ssh --authorize-session
 To this i've mentioned here some helful gcloud commands:
 /*
