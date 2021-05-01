@@ -15,7 +15,7 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
   - virtualenv
 
 
-#activate virtual environment after clonning my repo
+Activate virtual environment after clonning my repo
 // I will continue next steps within activated venv directory.
 // I had created dallas repository first and clone it in activated environment 
 git clone https://github.com/emre-23/dallas.git
@@ -25,9 +25,9 @@ cd myproject_2501
 python3 -m venv venv
 . venv/bin/activate
 
-###My_sql_set-up
-cd my_sql
-docker-compose -f stack.yml up -d
+###My_sql_set-up####
+#cd my_sql
+#docker-compose -f stack.yml up -d
 
 user:root
 passwd: required_password
@@ -38,7 +38,31 @@ Setting up two-node cluster on GKE
 
 Ekran Resmi 2021-05-01 23.36.01![image](https://user-images.githubusercontent.com/53182424/116794508-1f501f80-aad6-11eb-91aa-9b641b15e075.png)
 
+As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
 
+#gcloud cloud-shell ssh --authorize-session
+To this i've mentioned here some helful gcloud commands:
+/*
+gcloud auth login
+
+gcloud cloud-shell ssh —authorize-session // Connect to cluster
+
+gcloud config set project deployment-emre1
+
+gcloud source repos clone hello-world --project=deployment-emre1 // clone repo on cloud
+
+gcloud container clusters get-credentials emre-helm --zone us-east1-b --project deployment-emre1
+
+git clone ssh://ygormus173@gmail.com@source.developers.google.com:2022/p/deployment-emre1/r/hello-world
+
+
+##########ssh to VM#######
+gcloud compute config-ssh
+
+ssh ansible-server.us-east1-b.phrasal-descent-309313
+
+*/
+Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.com/53182424/116794595-d3ea4100-aad6-11eb-8c76-c4fed79bbd8e.png)
 
 
 
