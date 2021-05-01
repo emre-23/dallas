@@ -18,7 +18,7 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
   - Docker, docker-ce
 
 #export FLASK_APP=hello.py
-#flask run on
+#flask run
 
 ![image](https://user-images.githubusercontent.com/53182424/116795030-95568580-aada-11eb-9533-9e9a6318c413.png)
 
