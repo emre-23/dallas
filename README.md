@@ -8,6 +8,9 @@ You can clone my repo to your local and just save the file main.py and user.txt 
 
 print the .sh file located under linpd folder by command '#cat dupids.sh' and run first or second way to display duplicated IDs with username in linux one liner by awk.
 
+Ekran Resmi 2021-05-01 23.48.25![image](https://user-images.githubusercontent.com/53182424/116794720-db5e1a00-aad7-11eb-80af-75005e599520.png)
+
+
 
 ### To run and docckerize flask app, we need some prerequsities:
   - Python3.5+ version
