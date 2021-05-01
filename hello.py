@@ -9,4 +9,4 @@ def hello():
 
 @app.route('/status')
 def index():
-    return 'index'
+    return '', 204
