@@ -63,7 +63,7 @@ Setting up two-node cluster on GKE
 
 ![image](https://user-images.githubusercontent.com/53182424/116794508-1f501f80-aad6-11eb-91aa-9b641b15e075.png)
 
-As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
+As we'd installed GCloud SDK, we can connect to our cluster via our local terminal as well
 
 Activate Container Registry for your selected project
 
