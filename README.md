@@ -7,7 +7,7 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
 
 
 ### To run and docckerize flask app, we need some prerequsities:
-  - Pyrhon
+  - Python3.5+ version
   - pip
   - virtualenv
 Create a folder as in my case mkdir project_2501
