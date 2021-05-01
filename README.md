@@ -46,7 +46,7 @@ my_sql![image](https://user-images.githubusercontent.com/53182424/116794415-6be7
 
 Setting up two-node cluster on GKE
 
-Ekran Resmi 2021-05-01 23.36.01![image](https://user-images.githubusercontent.com/53182424/116794508-1f501f80-aad6-11eb-91aa-9b641b15e075.png)
+![image](https://user-images.githubusercontent.com/53182424/116794508-1f501f80-aad6-11eb-91aa-9b641b15e075.png)
 
 As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
 
