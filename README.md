@@ -50,7 +50,9 @@ Setting up two-node cluster on GKE
 
 As we'd installed Gcloud SDK, we can connect to our cluster via our local terminal as well
 
-Activate Container Registry for your selected project:
+Activate Container Registry for your selected project 
+#gcloud services enable containerregistry.googleapis.com 
+or via console:
 https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overview
 
 #docker pull 23emre/flask-docker
