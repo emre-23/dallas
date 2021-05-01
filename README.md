@@ -11,10 +11,11 @@ print the .sh file located under linpd folder by command '#cat dupids.sh' and ru
 ![image](https://user-images.githubusercontent.com/53182424/116794747-25470000-aad8-11eb-8802-91722f2b7124.png)
 
 
-### To run and docckerize flask app, we need some prerequsities:
+### To run and dockerize flask app, we need some prerequsities:
   - Python3.5+ version
   - pip
   - virtualenv
+  - Docker, docker-ce
 
 
 Activate virtual environment after clonning my repo
