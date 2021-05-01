@@ -29,6 +29,9 @@ python3 -m venv venv
 cd my_sql
 docker-compose -f stack.yml up -d
 
+user:root
+passwd: required_password
+
 my_sql![image](https://user-images.githubusercontent.com/53182424/116794415-6be72b00-aad5-11eb-85ed-45d9caa03e91.png)
 
 Setting up two-node cluster on GKE
