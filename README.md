@@ -53,6 +53,13 @@ As we'd installed Gcloud SDK, we can connect to our cluster via our local termin
 Activate Container Registry for your selected project:
 https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overview
 
+#docker pull 23emre/flask-docker
+#docker tag 23emre/flask-docker gcr.io/phrasal-descent-309313/23emre/flask-docker
+#docker push gcr.io/phrasal-descent-309313/23emre/flask-docker
+
+![image](https://user-images.githubusercontent.com/53182424/116795932-27fa2300-aae1-11eb-9faf-0a122917952e.png)
+
+
 #gcloud cloud-shell ssh --authorize-session
 To this i've mentioned here some helful gcloud commands:
 /*
