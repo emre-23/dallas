@@ -83,6 +83,15 @@ https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overv
 
 #docker push gcr.io/phrasal-descent-309313/23emre/flask-docker
 
+/* To push your image to Gitlab and set up pipelines automate:
+
+#docker login registry.gitlab.com
+
+#docker tag mysql registry.gitlab.com/emre-23/couchbase/mysql:latest
+
+#docker push registry.gitlab.com/emre-23/couchbase/mysql:latest
+
+
 ![image](https://user-images.githubusercontent.com/53182424/116795932-27fa2300-aae1-11eb-9faf-0a122917952e.png)
 
 
