@@ -85,7 +85,7 @@ https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overv
 
 /* To push your image to Gitlab:
 
-//Do not forget saving access tokens
+// Do not forget saving access tokens
 
 #docker login registry.gitlab.com
 
