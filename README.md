@@ -89,9 +89,9 @@ https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overv
 
 #docker login registry.gitlab.com
 
-#docker tag mysql registry.gitlab.com/emre-23/couchbase/mysql:latest
+#docker tag mysql registry.gitlab.com/emre-23/couchbase/mysql:latest  //emre-23 is my ID; couchbase is my example project
 
-#docker push registry.gitlab.com/emre-23/couchbase/mysql:latest
+#docker push registry.gitlab.com/emre-23/couchbase/mysql:latest.      //you can use alpine for test image
 
 */
 
