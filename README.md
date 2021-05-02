@@ -17,8 +17,13 @@ print the .sh file located under linpy folder by command '#cat dupids.sh' and ru
   - Docker, docker-ce
 
 Create a folder as in my case mkdir project_2501
-cd myproject_2501
-python3 -m venv venv
+
+#cd myproject_2501
+
+#python3 -m venv venv
+
+#pip3 freeze > requirements.txt
+
 . venv/bin/activate
 
 #export FLASK_APP=hello.py
