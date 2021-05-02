@@ -106,7 +106,7 @@ ssh ansible-server.us-east1-b.phrasal-descent-309313
 
 */
 
-Ekran Resmi 2021-05-01 23.40.16![image](https://user-images.githubusercontent.com/53182424/116794595-d3ea4100-aad6-11eb-8c76-c4fed79bbd8e.png)
+![image](https://user-images.githubusercontent.com/53182424/116794595-d3ea4100-aad6-11eb-8c76-c4fed79bbd8e.png)
 
 #cd k8s_files
 
