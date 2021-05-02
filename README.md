@@ -84,7 +84,9 @@ https://console.cloud.google.com/apis/api/containerregistry.googleapis.com/overv
 #gcloud cloud-shell ssh --authorize-session
 
 To this i've mentioned here some helpful gcloud commands:
+
 /*
+
 gcloud auth login
 
 gcloud cloud-shell ssh —authorize-session // Connect to cluster
