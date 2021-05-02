@@ -1,13 +1,11 @@
 # dallas
 
-You can clone my repo to your local and just save the file main.py and user.txt on linpy path
-
-./main.py will print the duplicated ID with full username lines.
+./linpy/main.py will print the duplicated ID with full username lines.
 
 ![image](https://user-images.githubusercontent.com/53182424/116794478-e4e68280-aad5-11eb-91e9-4672927d9db4.png)
 
 
-print the .sh file located under linpd folder by command '#cat dupids.sh' and run first or second way to display duplicated IDs with username in linux one liner by awk.
+print the .sh file located under linpy folder by command '#cat dupids.sh' and run first or second way to display duplicated IDs with username in linux one liner by awk.
 
 ![image](https://user-images.githubusercontent.com/53182424/116794747-25470000-aad8-11eb-8802-91722f2b7124.png)
 
@@ -31,6 +29,7 @@ python3 -m venv venv
 Activate virtual environment after clonning my repo
 // I will continue next steps within activated venv directory.
 // I had created dallas repository first and clone it in activated environment 
+
 git clone https://github.com/emre-23/dallas.git
 
 At the main path where include Dockerfile, hello.py and prerequisites.txt file, run these commands to build your docker image:
